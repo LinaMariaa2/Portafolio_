@@ -1,0 +1,141 @@
+:root {
+    --color-letra: #0D7C66;
+    --color-letra-footer: #41B3A2;
+    --color-fondo: #BDE8CA;
+    --color-secundario: #D7C3F1;
+    --fuente-letra: 'Krona One', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-letra);
+    color: var(--color-letra);
+    background-color: var(--color-fondo);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.header__navegador {
+    display: flex;
+    gap: 20px;
+}
+
+.main {
+    padding: 20px;
+    height: 120vh;
+}
+.espacio1{
+    height: 10vh;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    color: var(--color-letra);
+    margin-bottom: 20px;
+}
+
+.section {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.imagen {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.contenido img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+.sobre-mi__info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobre-mi__intro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sobre-mi__texto {
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.proyectos, .habilidades, .contacto {
+    margin-top: 40px;
+}
+
+.titulo-secundario {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--color-letra);
+}
+
+.proyectos__lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-cursos {
+    list-style: none;
+    padding: 0;
+}
+
+.proyecto, .habilidades__item {
+    background-color: var(--color-secundario);
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.habilidades__item {
+    background-color: var(--color-secundario);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #e3e9eb;
+    padding: 24px;
+    color: var(--color-letra-footer);
+    font-family: var(--fuente-letra);
+}
+
+.footer__texto {
+    margin-left: 200px;
+}
+
+
+
+
